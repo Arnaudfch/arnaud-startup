@@ -1,0 +1,125 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #e74c3c;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+#hero {
+    background-color: #3498db;
+    color: #fff;
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+}
+
+#about, #features, #testimonials, #pricing, #contact, #signup {
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 40px;
+    border-radius: 5px;
+}
+
+.feature, .testimonial, .pricing-plan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feature img, .testimonial img, .pricing-plan img {
+    width: 100px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+.feature h3, .testimonial strong, .pricing-plan h3 {
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+#testimonials {
+    background-color: #f9f9f9;
+}
+
+#pricing {
+    background-color: #ffe6e6;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #e74c3c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #d43525;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+    section {
+        padding: 20px;
+    }
+
+    .feature, .testimonial, .pricing-plan {
+        margin: 10px 0;
+    }
+}
+.hero-background {
+    background-image: url('https://hips.hearstapps.com/amv-prod-gp.s3.amazonaws.com/gearpatrol/wp-content/uploads/2019/12/How-to-Apply-Fragrance-the-Right-Way-Gear-Patrol-lead-full.jpg?crop=1.00xw:0.843xh;0,0.0660xh&resize=640:*');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
